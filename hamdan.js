@@ -1,3 +1,4 @@
+// This Script saves the checklist status in local browser memory
 function saveChecklist() {
     const checkboxes = document.querySelectorAll('input[type="checkbox"]');
     const state = {};
